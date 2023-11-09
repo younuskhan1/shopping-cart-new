@@ -13,10 +13,11 @@
 
 #parent-div {
     width: 90%;
-    height: 600px;
+    /* height: 600px; */
     margin: 50px auto;
     background-color: rgb(247, 239, 239);
     padding-top: 60px;
+    padding-bottom: 30px;
 }
 
 .flex-div {
@@ -79,7 +80,7 @@ input::-webkit-inner-spin-button {
 
 }
 
-.mobile-button {
+.button {
     margin: 2px;
     padding: 15px 30px;
     text-align: center;
@@ -98,13 +99,13 @@ input::-webkit-inner-spin-button {
     touch-action: manipulation;
 }
 
-.mobile-button:hover {
+.button:hover {
     background-position: right center;
     color: #fff;
     text-decoration: none;
 }
 
-.mobile-button:active {
+.button:active {
     transform: scale(0.95);
 }
 
@@ -112,4 +113,70 @@ input::-webkit-inner-spin-button {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
+}
+
+.calculation-sub-parent {
+    width: 100%;
+}
+
+.calculation {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px 70px;
+}
+
+.calculation-text {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+
+}
+
+.check-out-div {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(247, 239, 239);
+    width: 90%;
+    margin: 0px auto;
+    border-radius: 10px;
+    padding: 20px 0px;
+}
+
+.check-out-button {
+    background-color: #0a6bff;
+    border-radius: 4px;
+    border: 0;
+    box-shadow: rgba(1, 60, 136, .5) 0 -1px 3px 0 inset, rgba(0, 44, 97, .1) 0 3px 6px 0;
+    /* box-sizing: border-box; */
+    color: #fff;
+    cursor: pointer;
+    display: inherit;
+    font-family: "Space Grotesk", -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 0;
+    min-height: 56px;
+    min-width: 120px;
+    padding: 16px 20px;
+    position: relative;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    transition: all .2s cubic-bezier(.22, .61, .36, 1);
+}
+
+.check-out-button:hover {
+    background-color: #065dd8;
+    transform: translateY(-2px);
+}
+
+@media (min-width: 768px) {
+    .check-out-button {
+        padding: 16px 44px;
+        min-width: 150px;
+    }
 }
