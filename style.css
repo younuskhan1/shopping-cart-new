@@ -59,7 +59,7 @@
     width: 35%;
 }
 
-#mobile-input {
+.input-box {
     display: inline-block;
     width: 70px;
     padding: 15px 0px;
