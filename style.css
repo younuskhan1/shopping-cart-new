@@ -29,6 +29,7 @@
     border-radius: 10px;
     padding: 20px 0px;
     margin-bottom: 40px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .mobile-first-div {
@@ -62,12 +63,17 @@
 .input-box {
     display: inline-block;
     width: 70px;
+    font-weight: 700;
     padding: 15px 0px;
     text-align: center;
     background-color: rgb(233, 232, 239);
     border: 0px;
     border-radius: 10px;
     outline: 0px;
+}
+
+.input-box:hover {
+    background-color: rgb(192, 192, 192);
 }
 
 #mobile-input:focus {
