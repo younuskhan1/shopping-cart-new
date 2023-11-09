@@ -19,18 +19,19 @@
     padding-top: 60px;
 }
 
-#flex-div {
+.flex-div {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: white;
     width: 90%;
     margin: 0px auto;
     border-radius: 10px;
     padding: 20px 0px;
+    margin-bottom: 40px;
 }
 
 .mobile-first-div {
-    width: 50%;
+    width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,7 +39,7 @@
 }
 
 .mobile-second-div {
-    width: 50%;
+    width: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,7 +55,7 @@
 }
 
 .image-div {
-    width: 25%;
+    width: 35%;
 }
 
 #mobile-input {
