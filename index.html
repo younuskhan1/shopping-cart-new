@@ -7,9 +7,30 @@
     <link rel="stylesheet" href="./style.css">
     <title>New Shopping Cart</title>
 </head>
-<h1>amar sonar bangla</h1>
+<h1 id="shopping-heading">My Shopping Cart</h1>
 
 <body>
+    <section id="parent-div">
+        <div id="flex-div">
+            <div class="mobile-first-div">
+                <div class="image-div">
+                    <img class="image-phone" src="./images/product-1.png">
+                </div>
+                <h1>iPhone 11 128GB Black</h1>
+            </div>
+            <div class="mobile-second-div">
+                <div>
+                    <button type="button" class="mobile-button">MINUS</button>
+                    <input type="number" id="mobile-input" placeholder="0">
+                    <button type="button" class="mobile-button">PLUS</button>
+                </div>
+                <p class="mobile-money">$ <span>1219</span></p>
+                <div>
+                    <img src="./images/remove.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
     <script src="./index.js"></script>
 </body>
 
