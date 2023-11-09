@@ -7,7 +7,7 @@
 #shopping-heading {
     font-size: 35px;
     text-align: center;
-    color: magenta;
+    color: black;
     margin-top: 36px;
 }
 
@@ -66,24 +66,21 @@
     font-weight: 700;
     padding: 15px 0px;
     text-align: center;
+    cursor: pointer;
     background-color: rgb(233, 232, 239);
     border: 0px;
     border-radius: 10px;
     outline: 0px;
 }
 
+.input-box {
+    background-color: rgb(233, 232, 239);
+    transition-property: background-color;
+    transition-duration: .7s;
+}
+
 .input-box:hover {
     background-color: rgb(192, 192, 192);
-}
-
-#mobile-input:focus {
-    border: 3px solid aqua;
-}
-
-input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-
 }
 
 .button {
