@@ -59,12 +59,16 @@
 
 #mobile-input {
     width: 70px;
-    padding: 10px 0px;
+    padding: 15px 0px;
     text-align: center;
+    background-color: rgb(233, 232, 239);
+    border: 0px;
+    border-radius: 10px;
+    outline: 0px;
 }
 
 #mobile-input:focus {
-    border: 3px solid black;
+    border: 3px solid aqua;
 }
 
 input::-webkit-inner-spin-button {
