@@ -35,7 +35,7 @@ function getTaxAmount() {
 
 function getTotalWithTax() {
     const finalTotal = subMobileTotal + subCaseTotal + taxAmountInNumber;
-    const finalTotalString = parseFloat(finalTotal);
+    const finalTotalString = finalTotal.toFixed(2);
     document.getElementById("final-total-amount").innerText = finalTotalString;
 }
 
