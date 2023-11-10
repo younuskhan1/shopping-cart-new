@@ -1,8 +1,8 @@
 let subMobileTotal = 0;
 
-function getAndSetMobilePrice(mobielNumber) {
-    document.getElementById("number-of-mobile").innerText = mobielNumber;
-    subMobileTotal = mobielNumber * 1219;
+function getAndSetMobilePrice(mobileNumber) {
+    document.getElementById("number-of-mobile").innerText = mobileNumber;
+    subMobileTotal = mobileNumber * 1219;
     const justMobilePrice = document.getElementById("just-mobile-price");
     justMobilePrice.innerText = subMobileTotal;
 
@@ -13,7 +13,7 @@ let subCaseTotal = 0;
 function getAndSetCasePrice(caseNumber) {
     document.getElementById("number-of-case").innerText = caseNumber;
     subCaseTotal = caseNumber * 59;
-    const justCasePrice = document.getElementById("per-case-price")
+    const justCasePrice = document.getElementById("just-case-price")
     justCasePrice.innerText = subCaseTotal;
 }
 
