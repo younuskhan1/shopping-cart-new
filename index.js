@@ -83,3 +83,7 @@ document.getElementById("case-decrease").addEventListener("click", function () {
         getTotalWithTax();
     }
 })
+
+document.getElementById("check-out-button").addEventListener("click", function () {
+    location.reload();
+})
